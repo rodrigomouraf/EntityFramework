@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aabfd104b8a9495cb677da48865294ab" Name="Diagram1">
+        <EntityTypeShape EntityType="CadastroModel.Cliente" Width="1.5" PointX="4.875" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CadastroModel.Contato" Width="1.5" PointX="1.625" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="CadastroModel.FK__Contatos__IdClie__5CD6CB2B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

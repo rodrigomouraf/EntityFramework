@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CadastroModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NomeCliente" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Contatos" Relationship="Self.FK__Contatos__IdClie__5CD6CB2B" FromRole="Cliente" ToRole="Contatos" />
+  </EntityType>
+  <EntityType Name="Contato">
+    <Key>
+      <PropertyRef Name="IdContato" />
+    </Key>
+    <Property Name="IdContato" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contato1" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="IdCliente" Type="Int32" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Contatos__IdClie__5CD6CB2B" FromRole="Contatos" ToRole="Cliente" />
+  </EntityType>
+  <Association Name="FK__Contatos__IdClie__5CD6CB2B">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Contatos" Type="Self.Contato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Contatos">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CadastroEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="Contatos" EntityType="Self.Contato" />
+    <AssociationSet Name="FK__Contatos__IdClie__5CD6CB2B" Association="Self.FK__Contatos__IdClie__5CD6CB2B">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Contatos" EntitySet="Contatos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

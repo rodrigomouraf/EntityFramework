@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CadastroModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomeCliente" Type="varchar(max)" />
+    <Property Name="Email" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Contatos">
+    <Key>
+      <PropertyRef Name="IdContato" />
+    </Key>
+    <Property Name="IdContato" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" />
+    <Property Name="Contato" Type="varchar" MaxLength="200" />
+    <Property Name="IdCliente" Type="int" />
+  </EntityType>
+  <Association Name="FK__Contatos__IdClie__5CD6CB2B">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Contatos" Type="Self.Contatos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Contatos">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CadastroModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contatos" EntityType="Self.Contatos" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Contatos__IdClie__5CD6CB2B" Association="Self.FK__Contatos__IdClie__5CD6CB2B">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Contatos" EntitySet="Contatos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

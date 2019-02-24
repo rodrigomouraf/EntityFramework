@@ -1,0 +1,12 @@
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\47_Entity_Framework_Data_Models.exe.config
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\47_Entity_Framework_Data_Models.exe
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\47_Entity_Framework_Data_Models.pdb
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\EntityFramework.dll
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\EntityFramework.xml
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\obj\Debug\47_Entity_Framework_Data_Models.csprojAssemblyReference.cache
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\obj\Debug\47_Entity_Framework_Data_Models.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\obj\Debug\47_Entity_Framework_Data_Models.csproj.CopyComplete
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\obj\Debug\47_Entity_Framework_Data_Models.exe
+C:\Users\rodri\source\repos\AulasDevMedia\47_Entity_Framework_Data_Models\obj\Debug\47_Entity_Framework_Data_Models.pdb

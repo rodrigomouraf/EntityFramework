@@ -1,0 +1,7 @@
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\bin\Debug\46_Relations.exe.config
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\bin\Debug\46_Relations.exe
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\bin\Debug\46_Relations.pdb
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\obj\Debug\46_Relations.csprojAssemblyReference.cache
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\obj\Debug\46_Relations.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\obj\Debug\46_Relations.exe
+C:\Users\rodri\source\repos\AulasDevMedia\46_Relations\obj\Debug\46_Relations.pdb

@@ -1,0 +1,7 @@
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\bin\Debug\AulasDevMedia.exe.config
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\bin\Debug\AulasDevMedia.exe
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\bin\Debug\AulasDevMedia.pdb
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\obj\Debug\Adapters.csprojAssemblyReference.cache
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\obj\Debug\Adapters.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\obj\Debug\AulasDevMedia.exe
+C:\Users\rodri\source\repos\AulasDevMedia\AulasDevMedia\obj\Debug\AulasDevMedia.pdb

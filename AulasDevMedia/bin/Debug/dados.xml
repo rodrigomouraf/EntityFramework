@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<CADASTRO>
+  <Cliente>
+    <IdCliente>1</IdCliente>
+    <NomeCliente>Rodrigo Moura</NomeCliente>
+    <Email>rodrigomoura_rm@hotmail.com</Email>
+  </Cliente>
+  <Cliente>
+    <IdCliente>1005</IdCliente>
+    <NomeCliente>José3</NomeCliente>
+    <Email>Qualquer um</Email>
+  </Cliente>
+  <Cliente>
+    <IdCliente>1007</IdCliente>
+    <NomeCliente>José4</NomeCliente>
+    <Email>Qualquer um</Email>
+  </Cliente>
+  <Cliente>
+    <IdCliente>1008</IdCliente>
+    <NomeCliente>José4</NomeCliente>
+    <Email>Qualquer um</Email>
+  </Cliente>
+</CADASTRO>
